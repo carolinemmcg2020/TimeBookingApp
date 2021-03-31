@@ -11,7 +11,9 @@ public class User {
     private String password;
 
     // Constructor
-
+    public User (String password) {
+        this.password = password;
+    }
 
     public String getName() {
         return name;
